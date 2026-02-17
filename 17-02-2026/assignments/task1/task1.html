@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeWave Technologies</title>
+    <meta name="description" content="CodeWave Technologies - Innovative Web, Mobile and Cloud Solutions">
+    <meta name="keywords" content="Web Development, Mobile Apps, Cloud Solutions, IT Services">
+    <meta name="author" content="CodeWave Technologies">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!-- Background Theme Music -->
+    <audio autoplay loop>
+        <source src="background.mp3" type="audio/mpeg">
+        <source src="media/background.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Header Section -->
+    <header>
+        <figure>
+            <img src="images.png" alt="CodeWave Technologies Logo" width="150">
+        </figure>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="home">
+
+        <!-- Company Introduction Video -->
+        <section>
+            <h1>Welcome to CodeWave Technologies</h1>
+
+            <video controls poster="images/video-poster.jpg" width="600">
+                <source src="company-intro.mp4" type="video/mp4">
+                <source src="media/company-intro.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <article>
+                <h2>About Us</h2>
+                <p>
+                    CodeWave Technologies is a forward-thinking startup delivering 
+                    innovative digital solutions. We specialize in creating scalable, 
+                    high-performance applications for modern businesses.
+                </p>
+            </article>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+
+            <article>
+                <h3>Web Development</h3>
+                <p>Modern, responsive, and SEO-friendly websites.</p>
+            </article>
+
+            <article>
+                <h3>Mobile App Development</h3>
+                <p>Android and iOS applications tailored to your needs.</p>
+            </article>
+
+            <article>
+                <h3>Cloud Solutions</h3>
+                <p>Secure and scalable cloud-based infrastructure services.</p>
+            </article>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <h2>Client Testimonials</h2>
+
+            <article>
+                <blockquote>
+                    "CodeWave transformed our business with a stunning website!"
+                </blockquote>
+                <p>- Sarah Johnson, CEO</p>
+            </article>
+
+            <article>
+                <blockquote>
+                    "Professional team delivering top-quality solutions."
+                </blockquote>
+                <p>- Michael Lee, Startup Founder</p>
+            </article>
+        </section>
+
+        <!-- Newsletter Subscription Form -->
+        <section id="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+
+            <form action="#" method="post">
+
+                <!-- Email with automatic validation -->
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required 
+                       placeholder="Enter your email"><br><br>
+
+                <!-- Preferred Contact Time -->
+                <label for="contact-time">Preferred Contact Time:</label><br>
+                <input type="time" id="contact-time" name="contact-time" required><br><br>
+
+                <!-- Service Interest using datalist -->
+                <label for="service">Service Interest:</label><br>
+                <input list="services-list" id="service" name="service" 
+                       placeholder="Select or type a service" required>
+
+                <datalist id="services-list">
+                    <option value="Web Development">
+                    <option value="Mobile App Development">
+                    <option value="Cloud Solutions">
+                    <option value="UI/UX Design">
+                    <option value="Digital Marketing">
+                </datalist><br><br>
+
+                <!-- Submit -->
+                <input type="submit" value="Subscribe">
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <address>
+            <p>Contact Us:</p>
+            <p>Email: info@codewave.com</p>
+            <p>Phone: +1 234 567 890</p>
+            <p>Location: New York, USA</p>
+        </address>
+        <p>&copy; 2026 CodeWave Technologies. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
