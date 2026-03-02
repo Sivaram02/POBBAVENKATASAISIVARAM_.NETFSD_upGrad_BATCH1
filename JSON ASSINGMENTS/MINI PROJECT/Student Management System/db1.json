@@ -1,0 +1,10 @@
+{
+  "names": [
+    {
+      "name": "ram",
+      "age": "22",
+      "grade": "A"
+    }
+  ],
+  "$schema": "json\\node_modules\\json-server\\schema.json"
+}

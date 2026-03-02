@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Todo List</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+        }
+
+        .container {
+            width: 400px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input-section {
+            display: flex;
+            gap: 5px;
+        }
+
+        input {
+            flex: 1;
+            padding: 8px;
+        }
+
+        button {
+            padding: 8px 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        #addTask {
+            background-color: #28a745;
+            color: white;
+        }
+
+        #clearAll {
+            background-color: #dc3545;
+            color: white;
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+            background: #f1f1f1;
+            margin-bottom: 8px;
+            border-radius: 4px;
+        }
+
+        .deleteBtn {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 5px 8px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Dynamic Todo List</h1>
+
+    <div class="input-section">
+        <input type="text" id="taskInput" placeholder="Enter new task">
+        <button id="addTask">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <button id="clearAll">Clear All Tasks</button>
+</div>
+
+<script>
+$(document).ready(function () {
+    $("#addTask").click(function () {
+
+        let task = $("#taskInput").val().trim();
+
+        if (task === "") {
+            alert("Please enter a task!");
+            return;
+        }
+
+        $("#taskList").append(`
+            <li>
+                ${task}
+                <button class="deleteBtn">Delete</button>
+            </li>
+        `);
+
+        $("#taskInput").val("");
+    });
+    $(document).on("click", ".deleteBtn", function () {
+        $(this).parent().remove();
+    });
+    $("#clearAll").click(function () {
+        if (confirm("Are you sure you want to clear all tasks?")) {
+            $("#taskList").empty();
+        }
+    });
+
+});
+</script>
+
+</body>
+</html>
