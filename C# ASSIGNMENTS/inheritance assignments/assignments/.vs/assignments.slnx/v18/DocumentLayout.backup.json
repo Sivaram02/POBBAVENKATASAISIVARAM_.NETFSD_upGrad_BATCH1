@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\inheritance assignments\\assignments\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|d:\\inheritance assignments\\assignments\\assignments.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|solutionrelative:assignments.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|d:\\inheritance assignments\\assignments\\task6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|solutionrelative:task6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|d:\\inheritance assignments\\assignments\\task5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|solutionrelative:task5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|d:\\inheritance assignments\\assignments\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|solutionrelative:task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|d:\\inheritance assignments\\assignments\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|solutionrelative:task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|d:\\inheritance assignments\\assignments\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|solutionrelative:task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|d:\\inheritance assignments\\assignments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7F8613-44CB-4D59-8E69-F524911DA0FD}|assignments.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "task6.cs",
+              "DocumentMoniker": "D:\\inheritance assignments\\assignments\\task6.cs",
+              "RelativeDocumentMoniker": "task6.cs",
+              "ToolTip": "D:\\inheritance assignments\\assignments\\task6.cs*",
+              "RelativeToolTip": "task6.cs*",
+              "ViewState": "AgIAAIkAAAAAAAAAAADwv40AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:01:03.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "task5.cs",
+              "DocumentMoniker": "D:\\inheritance assignments\\assignments\\task5.cs",
+              "RelativeDocumentMoniker": "task5.cs",
+              "ToolTip": "D:\\inheritance assignments\\assignments\\task5.cs",
+              "RelativeToolTip": "task5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:57:37.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "task4.cs",
+              "DocumentMoniker": "D:\\inheritance assignments\\assignments\\task4.cs",
+              "RelativeDocumentMoniker": "task4.cs",
+              "ToolTip": "D:\\inheritance assignments\\assignments\\task4.cs",
+              "RelativeToolTip": "task4.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA9wC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:48:47.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "task3.cs",
+              "DocumentMoniker": "D:\\inheritance assignments\\assignments\\task3.cs",
+              "RelativeDocumentMoniker": "task3.cs",
+              "ToolTip": "D:\\inheritance assignments\\assignments\\task3.cs",
+              "RelativeToolTip": "task3.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwDcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:46:09.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "task2.cs",
+              "DocumentMoniker": "D:\\inheritance assignments\\assignments\\task2.cs",
+              "RelativeDocumentMoniker": "task2.cs",
+              "ToolTip": "D:\\inheritance assignments\\assignments\\task2.cs",
+              "RelativeToolTip": "task2.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAUwDMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:43:54.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "assignments",
+              "DocumentMoniker": "D:\\inheritance assignments\\assignments\\assignments.csproj",
+              "RelativeDocumentMoniker": "assignments.csproj",
+              "ToolTip": "D:\\inheritance assignments\\assignments\\assignments.csproj",
+              "RelativeToolTip": "assignments.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-16T09:42:12.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\inheritance assignments\\assignments\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\inheritance assignments\\assignments\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:40:45.512Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
