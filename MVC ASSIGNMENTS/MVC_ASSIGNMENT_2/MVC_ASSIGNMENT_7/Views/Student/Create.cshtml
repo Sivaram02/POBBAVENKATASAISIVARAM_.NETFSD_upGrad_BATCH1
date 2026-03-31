@@ -1,0 +1,42 @@
+﻿@model MVC_ASSIGNMENT_6.Models.Student
+
+@{
+    ViewData["Title"] = "HTML Helper Form";
+}
+
+<h2>Student Form (HTML Helpers)</h2>
+
+@using (Html.BeginForm("Create", "Student", FormMethod.Post))
+{
+    <div>
+        <label>Name</label><br />
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+
+    <div>
+        <label>Age</label><br />
+        @Html.TextBoxFor(m => m.Age, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Age, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+
+    <div>
+        <label>Email</label><br />
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+}
+
+<p style="color:green">@ViewBag.Message</p>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
