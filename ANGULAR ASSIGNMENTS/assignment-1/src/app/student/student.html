@@ -1,0 +1,83 @@
+<!-- 🔹 TASK 1: One-Way Binding -->
+<h2>Task 1: One-Way Binding</h2>
+
+<h3>{{ name }}</h3>
+
+<img [src]="imageUrl" width="150">
+
+<br><br>
+
+<button (click)="showAlert()">Click Me</button>
+
+<hr>
+
+<!-- 🔹 TASK 2: Two-Way Binding -->
+<h2>Task 2: Two-Way Binding Form</h2>
+
+<input [(ngModel)]="name2" placeholder="Enter Name">
+<br><br>
+
+<input [(ngModel)]="email" placeholder="Enter Email">
+<br><br>
+
+<h3>Name: {{ name2 }}</h3>
+<h3>Email: {{ email }}</h3>
+
+<hr>
+
+<!-- 🔹 TASK 3 & 4: Model + Display -->
+<h2>Task 3 & 4: Product Model</h2>
+
+<ul>
+  <li *ngFor="let p of products">
+    {{ p.name }} - ₹{{ p.price }} - Qty: {{ p.quantity }}
+  </li>
+</ul>
+
+<hr>
+
+<!-- 🔹 TASK 5: ngIf -->
+<h2>Task 5: ngIf (Login Toggle)</h2>
+
+<button (click)="toggleLogin()">Toggle Login</button>
+
+<h3 *ngIf="isLoggedIn">Welcome User</h3>
+
+<hr>
+
+<!-- 🔹 TASK 6: ngFor -->
+<h2>Task 6: ngFor (Courses List)</h2>
+
+<ul>
+  <li *ngFor="let c of courses; let i = index">
+    {{ i }} - {{ c }}
+  </li>
+</ul>
+
+<hr>
+
+<!-- 🔹 TASK 7: ngFor + ngIf -->
+<h2>Task 7: Product Category</h2>
+
+<div *ngFor="let p of products">
+  <h4>{{ p.name }}</h4>
+
+  <p *ngIf="p.price > 500">Premium Product</p>
+  <p *ngIf="p.price <= 500">Budget Product</p>
+</div>
+
+<hr>
+
+<!-- 🔹 TASK 8: Student Info -->
+<h2>Task 8: Student Details</h2>
+
+<p>Name: {{ name }}</p>
+<p>Age: {{ age }}</p>
+<p>Course: {{ course }}</p>
+
+<hr>
+
+<!-- 🔹 TASK 10: Styling -->
+<h2>Task 10: Styling</h2>
+
+<h3 style="color: blue;">This is Inline Styled Text</h3>
